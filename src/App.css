@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(225, 225, 218);
+}
+
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.box {
+  border: 1px solid black;
+  box-shadow: 0px 2px 5px 2px rgb(101, 101, 101);
+}
+
+#editor {
+  background-color: beige;
+  min-height: 200px;
+  min-width: 80%;
+}
+
+#preview {
+  background-color: bisque;
+  min-height: 150px;
+  min-width: 100%;
+  max-width: fit-content;
+}
+
+pre {
+  background-color: aliceblue;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+img {
+  max-width: 350px;
+}
+
+.wrapper {
+ position: relative;
+ padding: 0.2rem;
+}
+
+.reset {
+  display: block;
+  position: absolute;
+  right: 10%;
+  z-index: 10;
+}
+
+.reset:hover {
+  cursor: pointer;
+  filter: invert(90%);
+}
