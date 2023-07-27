@@ -13,6 +13,6 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 
 ## Live URL
 
-- Check this project [online](https://quote-generator-alfo-code.netlify.app/)
+- Check this project [online](https://markdown-previewer-alfo-code.netlify.app/)
 
 
